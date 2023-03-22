@@ -14,7 +14,7 @@ const GithubProfileCard = ({ prof }) => {
 					<Row className="">
 						<Col className="order-lg-2" lg="4">
 							<img
-								src={imageProfile}
+								src="/img/icons/common/profile-picHemant.png"
 								style={{ width: "200px" }}
 								alt=""
 								className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"

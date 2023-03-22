@@ -24,7 +24,7 @@ const Personal = ({prof}) => {
 								{/* <DisplayLottie
 									animationPath={section.lottieAnimationFile}
 								/> */}
-                                <img src={imageProfile}
+                                <img src="/img/icons/common/profile-picHemant.png"
 								style={{ width: "200px" }}
 								alt=""
 								className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4" />
