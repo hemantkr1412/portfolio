@@ -4,6 +4,7 @@ import { Fade } from "react-reveal";
 import { Col, Container, Row, UncontrolledTooltip } from "reactstrap";
 import DisplayLottie from "../components/DisplayLottie";
 import { skillsSection } from "../portfolio";
+import imageProfile from './profile-picHemant.png'
 import {
 	Card,
 	CardBody,
@@ -23,7 +24,7 @@ const Personal = ({prof}) => {
 								{/* <DisplayLottie
 									animationPath={section.lottieAnimationFile}
 								/> */}
-                                <img src={prof.avatar_url}
+                                <img src={imageProfile}
 								style={{ width: "200px" }}
 								alt=""
 								className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4" />

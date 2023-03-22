@@ -4,7 +4,7 @@ import { Card, Col, Row, Container,Button, Form, FormGroup, Label, Input, FormTe
 
 import SocialLinks from "../components/SocialLinks";
 import Image from "next/image";
-
+import imageProfile from './profile-picHemant.png'
 const GithubProfileCard = ({ prof }) => {
 	return (
 		
@@ -14,7 +14,7 @@ const GithubProfileCard = ({ prof }) => {
 					<Row className="">
 						<Col className="order-lg-2" lg="4">
 							<img
-								src={prof.avatar_url}
+								src={imageProfile}
 								style={{ width: "200px" }}
 								alt=""
 								className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"
