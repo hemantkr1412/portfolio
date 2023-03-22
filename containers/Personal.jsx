@@ -33,7 +33,7 @@ const Personal = ({prof}) => {
 						<Col lg="6" className="order-2 order-lg-2">
 							<Fade right duration={2000}>
                                 <Card
-                                    style={{ flex: 1 }}
+                                    style={{ flex: 1,}}
                                     className="shadow-lg--hover mb-3 shadow border-0 text-center rounded"
                                 >
                                     <h3 className="h3 mb-2">{"Hemant Kumar"}</h3>

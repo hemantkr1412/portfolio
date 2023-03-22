@@ -51,7 +51,7 @@ const Skills = () => {
 								</div>
 								<div>
 									{section.skills.map((skill, i) => {
-										return <p key={i}>{skill}</p>;
+										return <p key={i}>💻{skill}</p>;
 									})}
 								</div>
 							</Fade>

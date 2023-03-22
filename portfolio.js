@@ -4,10 +4,9 @@ export const greetings = {
 	name: "Hemant Kumar",
 	title: "Hi There! , I'm Hemant",
 	description:
-		"I'm passionate Full Stack web developer having an experience of web applications with Node.js, React.js,Python,Django, Next.js",
-		//  and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+		"I'm passionate Full Stack web developer having an experience of web applications with Node.js, React.js,Python,Django, Next.js,and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
 	resumeLink:
-		"https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing",
+		"",
 };
 
 export const openSource = {
@@ -35,11 +34,11 @@ export const skillsSection = {
 			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
-					"⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"
+					" Building responsive Single-Page-Apps (SPA) & PWA in React.js"
 				),
-				emoji("⚡ Building responsive static websites using Next.js"),
+				emoji(" Building responsive static websites using Next.js"),
 				emoji(
-					"⚡ Building RESTful APIs in Node.Js & Django REST Framework"
+					" Building RESTful APIs in Node.Js & Django REST Framework"
 				),
 			],
 			softwareSkills: [
@@ -94,12 +93,12 @@ export const skillsSection = {
 			title: "Cloud Infra-Architecture",
 			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
 			skills: [
-				emoji("⚡ Experience of working on multiple cloud platforms"),
+				emoji(" Experience of working on multiple cloud platforms"),
 				emoji(
-					"⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
+					" Hosting and maintaining websites on virtual machine instances along with integration of databases"
 				),
 				emoji(
-					"⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
+					" Building CI/CD pipelines for automated testing & deployment using Github Actions"
 				),
 			],
 			softwareSkills: [
@@ -151,19 +150,19 @@ export const skillsSection = {
 			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
-					"⚡ Experience in developing Smart Contract using Solidity & Ethereum"
+					" Experience in developing Smart Contract using Solidity & Ethereum"
 				),
 				emoji(
-					"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
+					" Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
 				),
 				emoji(
-					"⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
+					" Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
 				),
 				emoji(
-					"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
+					" Developing NFT Smart Contracts using ERC-721 Token Standard"
 				),
 				emoji(
-					"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
+					" Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
 				),
 			],
 			softwareSkills: [
@@ -203,7 +202,7 @@ export const SkillBars = [
 	},
 	{
 		Stack: "Programming",
-		progressPercentage: "60",
+		progressPercentage: "70",
 	},
 ];
 
@@ -234,7 +233,19 @@ export const educationInfo = [
 			"Represented college in various technical events.",
 			
 		],
-	},
+	},{
+		schoolName: "G.A High School, Lalganj Bihar",
+		subHeader: "All Subjects",
+		duration: "September 2013 - June 2015",
+		// desc: "I have studied Physics, Chemistry, Maths,English, etc.",
+		// // grade: "Grade A",
+		// descBullets: [
+		// 	"Represented college in various sports events.",
+		// 	"Represented college in various cultural events.",
+		// 	"Represented college in various technical events.",
+			
+		// ],
+	}
 ];
 
 export const experience = [
@@ -276,23 +287,23 @@ export const projects = [
 	{
 		name: "developer-portfolio",
 		desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-		github: "https://github.com/1hanzla100/developer-portfolio",
-		link: "https://developer-portfolio-1hanzla100.vercel.app/",
+		github: "",
+		link: "",
 	},
 	{
 		name: "AtlasMart",
 		desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
-		github: "https://github.com/1hanzla100/Django-React-Marketplace",
+		github: "",
 	},
 	{
 		name: "Technota (Forum)",
 		desc: "Get hands-on experience in technical skills with Technota",
-		github: "https://github.com/1hanzla100/django-react-forum",
+		github: "",
 	},
 	{
 		name: "Shopaza (Ecommerce)",
 		desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
-		github: "https://github.com/1hanzla100/Django-ecommerce",
+		github: "",
 	},
 ];
 
@@ -315,8 +326,8 @@ export const seoData = {
 	description:
 		"A passionate Full Stack Web Developer and Blockchain Developer.",
 	author: "Hemant Kumar",
-	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-	url: "https://developer-portfolio-1hanzla100.vercel.app",
+	image: "/img/icons/common/HemantKumar.png",
+	url: "https://hemant.tech/",
 	keywords: [
 		"Hemant Kumar",
 		"Hemant",
